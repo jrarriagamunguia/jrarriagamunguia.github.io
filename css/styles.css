@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header,nav,footer, main {
+    width: 100%;
+    background-color: #4D2B8C;
+    padding: 50px;
+    color: #FFEF5F;
+}
+
+nav {
+    background-color: #85409D;
+}
+
+h1 {
+    display: inline-block;
+    width: auto;
+    background-color: #EEA727;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: 2px solid #FFEF5F;
+    margin: 10px;
+    color: #FFEF5F;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 5px;
+}
+
+nav ul li a {
+    display: block;
+    background-color: #EEA727;
+    color: #FFEF5F;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid #FFEF5F;
+    width: auto;
+}
+
+.boton-home {
+    display: inline-block;
+    background-color: #EEA727;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #FFEF5F;
+    vertical-align: middle;
+}
+
+.boton-home img {
+    width: 40px;
+    height: auto;
+    display: block;
+}
+h1 {
+    display: inline-block;
+    width: auto;           
+    min-width: 200px;      
+    background-color: #EEA727;
+    padding: 15px 30px;    
+    margin: 10px;
+    color: #FFEF5F;
+    border-radius: 15px;
+    border: 2px solid #FFEF5F;
+    vertical-align: middle;
+    text-align: center;
+}
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 5px;
+}
+li a {
+    display: block;
+    width: auto;           
+    min-width: 100px;      
+    background-color: #EEA727;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #FFEF5F;
+    border-radius: 10px;
+    border: 2px solid #FFEF5F;
+    text-align: center;
+}
+li a {
+    text-decoration: none;
+}
+ li a:link,li a:visited {
+    color: #FFEF5F;
+    border-radius: 5px;
+}
+ li:hover {
+    background-color: #4D2B8C;
+}
+ li a:hover {
+    color: #FFEF5F;
+}
+.contenido {
+    background-color: #EEA727;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contenido section {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    color: #4D2B8C;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.centrar {
+    text-align: center;
+}
+.contenido h2 {
+    color: #FFEF5F;
+}
+#tabla_1{
+     border-style: solid;
+    border-width: 5px;
+    border-color:#85409D;
+    border-spacing: 10px;
+    border-top: 30px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto; 
+}
+#tabla_1 td, #tabla_1 th{
+    border-style: solid;
+    border-width: 3px;
+    border-color:#85409D;
+    padding: 10px;
+    background-color: #FFEF5F;
+}
+#tabla_1 th{
+    background-color: #85409D;
+}
+.desbordamiento{
+    overflow:auto;
+}
+#tabla_2{
+    border-style: solid;
+    border-width: 5px;
+    border-color:#FFEF5F;
+    border-spacing: 10px;
+    border-top: 30px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tabla_2 th, #tabla_2 td{
+    border-style: solid;
+    border-width: 5px;
+    border-color:#85409D;
+    border-spacing: 5px;
+    margin-top: 30px;
+    padding: 5px;
+}
+#tabla_2 td, #tabla_ th{
+    border-style: solid;
+    border-width: 3px;
+    border-color:#85409D;
+    padding: 10px;
+    background-color: rgba(255, 239, 95, 0.52);
+}
+#tabla_2 td{
+    background-color: #4D2B8C
+    height: 100px;
+    vertical-align: auto;
+}
+#tabla_3, #tabla_3 td, #tabla_3 th{
+    margin-top: 30px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:#4D2B8C
+    border-collapse: collapse;
+    padding:10px;
+    margin-left: auto;
+    margin-right: auto; 
+    }
+#tabla_3 tbody tr:nth-child(even){
+    background-color: #FFEF5F
+        color #4D22B8
+}
+#tabla_3 tbody tr:nth-child(odd){
+    background-color #FFEF5F
+    color #FFEF5F}
+
+#tabla_4{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#tabla_4 td, #tabla_4 th{
+    border-style: solid;
+    border-width: 3px;
+    border-color:#EEA727
+}
+section p{
+    margin: 30px;
+}
+#tabla_4 tbody th :hover{
+   background-color: #f700ec;
+    cursor: default;           
+    transition: background-color 0.2s ease;
+}
+#tabla_4 th{
+    background-color: #4D2B8C
+        color #EEA727
+}
+.img-small{
+    width:500px;
+    height: auto;
+}
+.imh-medium{
+    width: 50%;
+    height: auto;
+}
+nav ul li a:hover {
+    background-color: #4D2B8C; 
+    color: #EEA727;            
+    border-color: #EEA727;     
+    cursor: pointer;           
+    transition: 0.3s;

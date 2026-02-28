@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Formularios practica 8</title>
+        <link rel="stylesheet" href="css/style_theme.css">
+    </head>
+    <body>
+       <!--(header>h1)+(nav>ul>(li>a)*8)+(main>(section>h2+p)*3)+(footer>h5)-->
+        <header style="display: flex; align-items: center; justify-content: center; gap: 15px;">
+             <a href="Index.html"> <img src="Imagenes/casa-silueta-negra-sin-puerta.png"
+                                        style="width: 40px; height: auto;"></a>
+            <h1>Practica 8 Formularios</h1>
+        </header>
+        <nav class=".centrar">
+            <ul>
+                <li><a href="Formatos.html">Formatos</a></li>
+                <li><a href="Listas.html">Listas</a></li>
+                <li><a href="Trabajo%20enlaces..html">Enlaces</a></li>
+                <li><a href="Tablas.html">Tablas</a></li>
+                <li><a href="Imagenes.html">Imágenes</a></li>
+                <li><a href="Audio.html">Audio</a></li>
+                <li><a href="Videos.html">Video</a></li>
+                <li><a href="Formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Formularios</h2>
+                <p>Pig pork sausage biltong, bresaola ham t-bone ham ham pork 
+                    tip loin, hamburger beef cow pastrami braunschweiger. Chop 
+                    leberkas brisket, ham tongue chicken drumstick. Pancetta pig 
+                    meatball. Hamburger bacon beef leberkas round. Tongue 
+                    venison ham frankfurter. Venison ham pancetta cow pig hock 
+                    tip beef. Cow swine chuck tip meatball tip ham ribs 
+                    braunschweiger.</p>
+                <form action="" method="get">
+                    <label for="">nombre</label>
+                    <input type="text" id="nombre" name="nombre" value="">
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" name="password" vaalue="">
+                    <input type="submit" value="Enviar">
+                </form>
+                
+            <section>
+                <h2>Formularios opción multiple</h2>
+                <p> Leberkas loin hock cow beef, ham chop biltong meatball ham 
+                    boudin fatback tip chicken, fatback ball pig shankle 
+                    braunschweiger, pig pastrami tip sirloin, ham tip bacon rump 
+                    beef, cow biltong pig turducken, brisket tip andouille. 
+                    Corned venison tip bregenwurst, chicken bregenwurst tip 
+                    pastrami. Tip beef bresaola fatback tip capicola belly 
+                    turducken pig ribs sausage cow sopressata ham pork 
+                    frankfurter prosciutto salami porchetta. </p>
+                    <form action="" method="get">
+                        <label for="nombre">nombre</label>
+                        <input type="text" id="nombre" name="nombre" value="">
+                        <label for="pais">pais</label>
+                        <select id="pais" name="pais">
+                            <option value="Argentina">Argentina</option>
+                            <option value="Colombia">Colombia</option>
+                            <option value="Italia">Italia</option>
+                            <option value="Francia">Francia</option>
+                            <option value="México">México</option>
+                            <option value="United state">United State</option>
+                        </select>    
+                        <label for="">Genero:</label>
+                        <div>
+                            <input type="radio" id="Femenino" name="genero" value="femenino">
+                            <label for="femenino">femenino</label>
+                            <input type="radio" id="Masculino" name="genero" value="Masculino">
+                            <label for="Masculino">Masculino</label>     
+                            <input type="radio" id="Otro" name="genero" value="Otro">
+                            <label for="otro">Otro</label>
+                        </div>
+                        <label for="">Identificador vigente</label>
+                        <div>
+                        <input type="checkbox" id="visa" name="visa" value="visa">
+                            <label for="visa">Visa</label>
+                         <input type="checkbox" id="Pasaporte" name="Pasaporte" value="Pasaporte">
+                            <label for="Pasaporte">Pasaporte</label>    
+                             <input type="checkbox" id="INE" name="INE" value="INE">
+                            <label for="INE">INE</label>
+                        
+                        </div>
+                    </form>
+                
+                <h2>formulario tarea</h2>
+                <p>Ham filet filet ham fatback cow corned tenderloin 
+                    bierschinken. Tip beef tip ribeye ham prosciutto ham 
+                    porchetta. Loin porchetta ham bregenwurst. Strip cow tip 
+                    beef porchetta cow ham ham bierschinken. Short shankle 
+                    frankfurter, beef brisket sopressata pig spare tenderloin 
+                    ham bresaola, pig pastrami bierschinken cow sirloin ribeye 
+                    brisket meatball, tip turducken bierschinken, meatball 
+                    turkey beef leberkas rump cow shankle short rump tip rib</p>
+                
+                    <form action="/action_page.php">
+                        <label for="fname"> Nombre:</label>
+                        <input type="text" id="fname" name="fname" value="">
+                        <label for="lname">Apellido:</label>
+                        <input type="text" id="lname" name="lname" value="">
+                        <input type="reset" value="Reset">
+                        <div>
+                            <label for="favcolor">Selecciona tu color favorito:</label>
+                            <input type="color" id="favcolor" name="favcolor">
+                        </div>
+                        <div>
+                            <label for="birthday">Cumpleaños:</label>
+                            <input type="date" id="birthday" name="birthday">
+                        </div>
+                        <div>
+                        <label for="email">Introduce tu correo:</label>
+                                <input type="email" id="email" name="email">
+                        </div>
+                        <div>
+                            <input type="image" src="Imagenes/foto mia.jpg" alt="Submit" width="150" height="150">
+                        </div>
+                        <div>
+                            <label for="myfile">sube tu portafolio</label>
+                            <input type="file" id="myfile" name="myfile">
+                        </div>
+                        <div>
+                            <label for="phone"> Número de contacto:</label>
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                        </div>
+                        <div>
+                          <input  type="button" onclick="alert" value="Enviar">
+                        </div>
+                    </form>
+        <footer>
+            <h5>Elaborado por Arriaga Munguía José Ricardo</h5>
+        </footer>
+</html>

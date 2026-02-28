@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Practica 2 listas</title>
+       <style type="text/css">
+
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#fcd00a;
+}
+
+header,nav,main,footer{
+    margin-left:auto;
+    margin-right:auto;
+    width:1200px;
+}
+header{ 
+    min-height:50px;
+    background-color:#850404;
+    color:#fcd00a;
+    padding:10px;
+}
+nav{
+    background-color:#400101;
+    color:#850404;
+    padding:5px;
+    text-align:center;
+}
+main{
+    min-height:100vh;
+    background-color:#ffffff;
+    color:#400101;
+    padding:10px;
+}
+
+footer{
+    min-height:20px;
+    background-color:#fcd00a;
+    color:#ffffff;
+    padding:40px;
+}
+nav ul li{
+    list-style-type:none;
+    display:inline-block;
+    background-color:#fcd00a;
+    padding:10px;
+    width:100px;
+    text-align:center;
+    margin:5px;
+}
+section{
+    width:800px;
+    background-color:#fff6cc;
+    margin:0 auto 30px auto;
+    padding:30px;
+}
+h1,h5{
+    text-align:center;
+}
+nav ul li a:link{
+    color:#947474;
+    text-decoration:none;
+}
+nav ul li a:visited{
+    color:#000000;
+}
+
+nav ul li a:hover{
+    color:#008a1a;
+}
+
+/* links dentro de párrafos */
+section p a:link{
+    color:#ffcd00;
+}
+
+section p a:visited{
+    color:#ff0000;
+}
+
+section p a:active{
+    color:#fcd00a;
+}
+section p{
+    margin-bottom: 15px;
+}
+
+section ul,
+section ol{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+</style>
+    </head>
+    <body>
+        <header style="display: flex; align-items: center; justify-content: center; gap: 15px;" >
+             <a href="Index.html"> <img src="Imagenes/casa-silueta-negra-sin-puerta.png"
+                                        style="width: 40px; height: auto;"></a>
+        <h1> PRACTICA 2 LISTAS</h1>
+        </header>
+        <NAV>  
+       <ul>
+<li><a href="Formatos.html">Formatos</a></li>
+<li><a href="Listas.html">Listas</a></li>
+<li><a href="Trabajo%20enlaces..html">Enlaces</a></li>
+<li><a href="Tablas.html">Tablas</a></li>
+<li><a href="Imagenes.html">Imagenes</a></li>
+<li><a href="Audio.html">Audios</a></li>
+<li><a href="Videos.html">Videos</a></li>
+<li><a href= "Formularios.html">Formularios</a></li>
+</ul>
+
+</NAV>
+
+<main>
+
+<section>
+<h2 id="ld_1">Lista desordenada</h2>
+<p>
+freestar
+freestar
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Aliquam sed metus et arcu convallis tempus eget ac enim.
+Quisque quis euismod nisi, rutrum pretium velit.
+<a href="https://es.wikipedia.org/wiki/Continente">Los continentes</a> 
+Donec sed lacus id dolor auctor accumsan nec quis quam. 
+
+Quisque vitae nulla fermentum, finibus arcu at, accumsan felis.
+<a href="PDF/mapa-de-mexico.pdf" download>MAPA MEXICO</a>
+Phasellus posuere felis at magna hendrerit.
+</p>
+
+<ul>
+<li>Europeo</li>
+<li>Américano</li>
+<li>Africano</li>
+<li>Asiático</li>
+<li>oceánico</li>
+</ul>
+</section>
+
+<section>
+<h2 id="lo_2">Lista ordenada</h2>
+<p>
+sit amet, consectetur adipiscing elit. 
+Aliquam sed metus et arcu convallis tempus eget ac enim.
+Quisque quis euismod 
+<a href="https://mundomapa.com/mapamundi/" target="_blank">Mapas mundi</a> 
+nisi, rutrum pretium velit. Donec sed lacus id dolor auctor accumsan nec quis quam.
+</p>
+
+<ol>
+<li>chile</li>
+<li>Dinamarca</li>
+<li>Hungria</li>
+<li>México</li>
+<li>Ecuador</li>
+<li>Italia</li>
+<li>Francia</li>
+<li>Estados unidos</li>
+<li>China</li>
+<li>Marruecos</li>
+<li>Australia</li>
+</ol>
+</section>
+
+<section>
+<h2 id="lm_3">Lista mixta</h2>
+<p>
+sit amet, consectetur adipiscing elit. 
+Aliquam sed metus et 
+<a href="Formatos.html">Practica 1- Formatos de texto</a>
+arcu convallis tempus eget ac enim.
+</p>
+
+<ol>
+<li>Africano
+<ul>
+<li>Marruecos</li>
+</ul>
+</li>
+
+<li>Americano
+<ul> 
+<li>México</li>
+<li>Ecuador</li>
+<li>Estados unidos</li>
+</ul>
+</li>
+
+<li>Asiatico
+<ul>
+<li>China</li>
+</ul>
+</li>
+
+<li>Europeo
+<ul>
+<li>Dinamarca</li>
+<li>Hungria</li>
+<li>Italia</li>
+<li>Francia</li>
+</ul>
+</li>
+
+<li>oceanico
+<ul>
+<li>Australia</li>
+</ul>
+</li>
+
+</ol>
+</section>
+
+<nav>
+<ul>
+<li><a href="#ld_1">lista desordenada</a></li>
+<li><a href="#lo_2">lista ordenada</a></li>
+<li><a href="#lm_3">lista mixta</a></li>
+</ul>
+</nav>
+
+</main>
+
+<footer>
+<h5>
+<a href="mailto:jose.arriagamu@alumno.buap.mx">
+Elaborado por J. Ricardo Arriaga Munguía
+</a>
+</h5>
+</footer>
+    </body>
+</html>
